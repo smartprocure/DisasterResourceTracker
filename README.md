@@ -31,7 +31,7 @@ Generalizing that, *universally demanded commodities* seem like a good fit. Thin
 | Location | `geo` | The lat/long cooridinates of the resource |
 | ExternalID | `string?` | An optional external system id for integrtation with existing systems |
 | ExternalSystem | `string?` | An optional name of an external system |
-| ResourceType | `string` | Type of resource from a finite list, e.g. `water`, `gas`, `plywood` |
+| ResourceType | `string` | Type of resource from a finite list, e.g. `water`, `gas`, `plywood`, `hugs` |
 | ResourceAvailability | `float` | 0-1 quantity indicating current availability, e.g. 0, 0.5, and 1 for a red/yellow/green scale or straight slider (calculated in light of AvailabilityReports) |
 
 *Note* ResourceType and ResourveAvailability could be in a Resources array to support multiple resources per location without fully denormalizing
