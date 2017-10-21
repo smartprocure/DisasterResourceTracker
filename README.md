@@ -50,3 +50,11 @@ Generalizing that, *universally demanded commodities* seem like a good fit. Thin
 | Comments | `[{message:string, user:ID}]` | Discussion about report |
 
 
+
+
+## Tech Stack
+- Elasticsearch (For Indexing Locations + Geo based search)
+- Node
+- React
+- Contexture (https://www.npmjs.com/package/contexture)
+- Futil (https://www.npmjs.com/package/futil-js)
