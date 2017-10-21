@@ -1,5 +1,5 @@
 # DisasterResourceTracker
-Specs for the DisasterResourceTracker the Miami Day of Civic Hacking
+Specs for the DisasterResourceTracker the Miami Day of Civic Hacking, which is about reporting the general current availability of arbitrary resources at locations.
 
 ## Features
 - Faceted search including location with map and table view
