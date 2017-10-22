@@ -1,13 +1,18 @@
 # DisasterResourceTracker
 Specs for the DisasterResourceTracker for the Miami Day of Civic Hacking, which is about reporting the general current availability of arbitrary resources at locations.
 
+## Resources
+- [User Stories](https://docs.google.com/spreadsheets/d/15uAjPKNSRYTn-HoIZlk9PqZUeoKUdMPELEyPb5ayYqU/edit#gid=1554475908)
+- [Slides](https://docs.google.com/presentation/d/1TJWXudt649WtV_LWFk6-nQTg0RHsTuf1Ryth8CJuhcY)
+
+
 ## Features
 - Faceted search including location with map and table view
 - Saved searches + notifications (e.g. when availability changes of plywood near me)
 - Separate permissions for Location CRUD and AvailabilityReport CRUD
 - Simplified Text DSL (over sms or even just super basic web app)
-	(resource, location) -> [result]
-	(resultID) -> location that iMessage can link to maps (probably just address)
+  - (resource, location) -> [result]
+  - (resultID) -> location that iMessage can link to maps (probably just address)
 
 
 
@@ -34,7 +39,7 @@ Generalizing that, *universally demanded commodities* seem like a good fit. Thin
 | ResourceType | `string` | Type of resource from a finite list, e.g. `water`, `gas`, `plywood`, `hugs` |
 | ResourceAvailability | `float` | 0-1 quantity indicating current availability, e.g. 0, 0.5, and 1 for a red/yellow/green scale or straight slider (calculated in light of AvailabilityReports) |
 
-*Note* ResourceType and ResourveAvailability could be in a Resources array to support multiple resources per location without fully denormalizing
+**Note** ResourceType and ResourceAvailability could be in a Resources array to support multiple resources per location without fully denormalizing
 
 
 
